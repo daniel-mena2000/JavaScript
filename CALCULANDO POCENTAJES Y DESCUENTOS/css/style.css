@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: #9f1455;
+    color: white;
+}
+.seccionUno{
+width: 100%;
+height: 800px;
+background-color: #3e054e;
+display: flex;
+justify-content: center;
+}
+.formularioDescuentos{
+    background:radial-gradient(circle at 33% 100%,#a63301 4%,#f15245 30%,#9f1455 62%,#3e054e,#155ecf);
+    display: flex;
+    border-radius: 40px;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.textoPrecios{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#labelPrecio{
+    width: 230px;
+    height: 30px;
+    margin:25px;
+    align-self: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow:  0 1px 1px #000001;
+    padding: 10px;
+    
+}
+
+#labelPrecio:hover{
+    box-shadow: 6px 5px 24px #dec504;
+     color: #222;
+}
+
+.textoDesc{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#labelDescuento{
+    padding: 10px;
+    width: 230px;
+    height: 30px;
+    margin:25px;
+    align-self: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow:  0 1px 1px #000001;
+}
+#labelDescuento:hover{
+     box-shadow: 6px 5px 24px #dec504;
+     color: #222;
+    
+}
+
+.miBoton{
+    width: 200px;
+    height: auto;
+    border: none;
+    padding: 5px;
+    align-self: center;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #3e054e;
+    color: white;
+}
+.miBoton:hover{
+    background-color: darkmagenta;
+}
+
+#resultadoPrecio{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    align-self: center;
+    background: white;
+}
